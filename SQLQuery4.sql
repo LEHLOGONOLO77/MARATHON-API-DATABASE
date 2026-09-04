@@ -5,7 +5,7 @@ RegistrationDate DATE NOT NULL,
 BidNumber INT NOT NULL,
 PaymentStatus varchar(50) NOT NULL DEFAULT 'Successful',
 RegistrationStatus varchar(20) NOT NULL DEFAULT 'Active',
-
+---I have used a Foreign key from the table called Participant---
 FOREIGN KEY (ParticipantID)
 REFERENCES Participant(ParticipantID)
 );
