@@ -1,7 +1,7 @@
 CREATE TABLE Organiser(
 OrganiserID Int PRIMARY KEY,
 Name varchar(30) NOT NULL,
-Email varchar(40) NOT NULL UNIQUE,
+Email varchar(50) NOT NULL UNIQUE,
 PhoneNumber int NOT NULL 
 );
 
