@@ -19,3 +19,6 @@ VALUES(151,171,'2026-09-14', 1451, 'Pending', 'Active'),
 
       SELECT * FROM Registration
 
+UPDATE Registration
+SET              
+WHERE
