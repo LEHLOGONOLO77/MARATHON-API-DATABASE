@@ -5,7 +5,7 @@ EventDate Date NOT NULL,
 EventName varchar(40) NOT NULL UNIQUE,
 Location varchar(60) NOT NULL
 FOREIGN KEY (OrganiserID)
-REFERENCES Organiser(OrganiserID)
+REFERENCES Organiser(Organiser)
 );
 
 INSERT INTO Event
