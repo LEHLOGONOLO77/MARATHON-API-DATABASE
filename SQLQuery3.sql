@@ -21,5 +21,8 @@ Where EventID = 192
 
 ALTER TABLE Event
 ADD NumberOFParticipant INT,
+UPDATE Event 
+SET NumberOfParticipant = 600
+WHERE EventID = 193
 
 
