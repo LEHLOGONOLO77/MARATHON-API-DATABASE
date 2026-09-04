@@ -16,7 +16,7 @@ VALUES(191, 181, '2026-09-14', 'Soweto  Marathon', 'Soweto FNB Stadium'),
 SELECT * FROM Organiser
 
 UPDATE Event
-SET  = 'Mall of Africa'
-Where =
+SET Location = 'Midrand'
+Where EventID = 192
 
 
