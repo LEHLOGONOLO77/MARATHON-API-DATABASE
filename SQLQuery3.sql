@@ -20,6 +20,6 @@ SET Location = 'Midrand'
 Where EventID = 192
 
 ALTER TABLE Event
-ADD NumberOFParicipant
+ADD NumberOFParicipant INT,
 
 
