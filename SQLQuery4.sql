@@ -21,4 +21,4 @@ VALUES(151,171,'2026-09-14', 1451, 'Pending', 'Active'),
 
 UPDATE Registration
 SET PaymentStatus = 'Pending'
-WHERE =
+WHERE = Successful
