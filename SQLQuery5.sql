@@ -7,7 +7,7 @@ EntryFee DECIMAL NOT NULL,
 FOREIGN KEY(EventID)
 REFERENCES Event(EventID)
 );
-
+---Inserted data into the table called EventCategory--- 
 INSERT INTO EventCategory
 VALUES(141,191, 'Beginner', '5Km', 200),
       (142,192, 'Junior', '15Km', 350),
